@@ -1,0 +1,22 @@
+.mat-card {
+  padding: 16px;
+  margin: 24px auto;
+  width: fit-content;
+}
+
+.button {
+  padding-top: 4px;
+}
+
+.avatar {
+  height: 32px;
+  width: 32px;
+  float: right;
+  border-radius: 50%;
+  z-index: 2;
+  object-fit: cover;
+}
+
+table {
+  padding: 16px 36px 8px 36px;
+}

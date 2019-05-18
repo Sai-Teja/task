@@ -1,0 +1,42 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mat-card {
+  padding: 0;
+  margin: 32px auto;
+  width: fit-content;
+}
+
+.mat-header-cell {
+  text-align: center;
+  padding: 4px 16px;
+}
+
+.mat-cell {
+  text-align: center;
+  padding: 8px 16px;
+}
+
+.image-cropper {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  opacity: 0;
+  animation: fade-in 0.5s;
+  animation-fill-mode: forwards;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}

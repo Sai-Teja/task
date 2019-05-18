@@ -1,0 +1,13 @@
+<mat-card class="mat-elevation-z4" *ngIf="user">
+    <i class="material-icons button" (click)="goBack()">arrow_back</i>
+    <img class="avatar" src="{{user.avatar}}">
+
+    <mat-card-content>
+        <table>
+            <tr mat-cell>ID: {{user.id}}</tr>
+            <tr mat-cell>First Name: {{user.first_name}}</tr>
+            <tr mat-cell>Last Name: {{user.last_name}}</tr>
+            <tr mat-cell>Email : {{user.email}}</tr>
+        </table>
+    </mat-card-content>
+</mat-card>
